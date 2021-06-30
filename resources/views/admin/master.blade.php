@@ -23,7 +23,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini"><b>YA</b>S</span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg"><b>YAS</b>Admin</span>
+        <span class="logo-lg"><b>TFS</b>Admin</span>
         </a>
 
         <!-- Header Navbar -->
