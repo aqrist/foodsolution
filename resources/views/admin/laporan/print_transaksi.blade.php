@@ -27,7 +27,7 @@
     <div class="row">
     <div class="col-xs-12">
         <h2 class="page-header">
-        <i class="fa fa-shopping-cart"></i> <b>Yoayo</b>Store.
+        <i class="fa fa-shopping-cart"></i> <b>TFS</b>Store.
         <small class="pull-right">Tanggal Dicetak: {{ $carbon::parse($carbon::now())->toFormattedDateString() }}</small>
         </h2>
     </div>

@@ -13,7 +13,7 @@
         <div class="row">
 
             <div class="col-md-12">
-                {{ Html::image('user_assets/img/new-logo.png', 'Yoayo Store', ['class' => 'img-responsive mx-auto']) }}
+                {{ Html::image('user_assets/img/new-logo.png', 'TongTji Official Store', ['class' => 'img-responsive mx-auto']) }}
                 <hr>
             </div>
 

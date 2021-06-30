@@ -45,7 +45,7 @@
 
                 <div class="login-logo"><a href="{{ route('login_admin') }}">
 
-                    <i class="fa fa-cubes"></i> <b>YAS</b>Admin</a>
+                    <i class="fa fa-cubes"></i> <b>TFS</b>Admin</a>
 
                 </div>
 
@@ -84,7 +84,7 @@
             <!-- /.login-box-body -->
 
             <p class="text-center" style="margin-top: 50px;">
-                Copyright &copy; 2018 <b>YOAYO</b>STORE. All rights reserved.
+                Copyright &copy; 2018 <b>TFS</b>STORE. All rights reserved.
             </p>
 
         </div>

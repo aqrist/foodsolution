@@ -32,11 +32,11 @@
                                 <div class="col-md-4">
                                     <b class="text-black">Informasi Pengirim</b><hr>
                                     <i>From,</i>
-                                    <b>Yoayo</b>Store<br>
-                                    Universitas BSI Gedung D2,<br>
-                                    Margonda Depok, Indonesia<br>
-                                    No. Telepon: (123) 45678910<br>
-                                    Email: info@TongTji Food Solution.com
+                                    <b>TFS</b>Store<br>
+                                    TongTji Food Solution<br>
+                                    Tegal, Jawa Tengah<br>
+                                    No. Telepon: 0283 356200<br>
+                                    Email: info@tongtjifoodsolution.com
                                 </div>
                                 <div class="col-md-4">
                                     <b class="text-black">Informasi Penerima</b><hr>

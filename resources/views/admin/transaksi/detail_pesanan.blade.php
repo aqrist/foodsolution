@@ -24,7 +24,7 @@
 <div class="row">
     <div class="col-xs-12">
         <h2 class="page-header">
-            <i class="fa fa-shopping-cart fa-fw"></i> <b>Yoayo</b>Store.
+            <i class="fa fa-shopping-cart fa-fw"></i> <b>TFS</b>Store.
             <small class="pull-right">Tanggal: {{ (new DateTime)->format('Y-m-d') }} </small>
         </h2>
     </div>
