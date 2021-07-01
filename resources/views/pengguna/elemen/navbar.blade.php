@@ -2,6 +2,7 @@
     <div class="container">
         <ul class="site-menu js-clone-nav d-none d-md-block">
             <li><a href="{{ route('beranda') }}">Beranda</a></li>
+            <li><a href="{{ route('beranda') }}">About Us</a></li>
             <li class="has-children">
                 <a href="#">Kategori</a>
                 <ul class="dropdown" id="kategori">
@@ -9,6 +10,7 @@
             </li>
             <li><a href="{{ route('produk') }}">Lihat Katalog</a></li>
             <li><a href="#kontak">Kontak Kami</a></li>
+            <li><a href="{{ route('produk') }}">Business Inquiries</a></li>
             @if(session()->has('email_pengguna'))
                 <li><a href="{{ route('logout') }}">Keluar</a></li>
             @else

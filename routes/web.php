@@ -352,10 +352,12 @@ Route::group(['prefix' => 'admin'], function(){
     # METHOD PUT
     Route::put('edit_merk/{id_merk}', 'Admin\Produk\MerkController@edit_merk');
 
-    # METHOD DELETE
+    // # METHOD DELETE
     Route::delete('hapus_merk/{id_merk}', 'Admin\Produk\MerkController@hapus_merk');
 
-
+    // Halaman Business Inquiries
+    // METHOD GET
+    Route::get('inquiries', 'Admin\InquiriesController@index')->name('list_inquiries');
 
     /** Halaman Superadmin : Admin */
 
