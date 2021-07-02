@@ -23,7 +23,7 @@
     <div class="container">
         <div class="row justify-content-center" data-aos="fade-up">
             <div class="col-md-12 site-section-heading text-center pt-4 pb-5">
-                <h2>Kenapa Harus Di TongTji Food Solution?</h2>
+                <h2>Kenapa Harus Di Tong Tji Food Solution?</h2>
             </div>
         </div>
         <div class="row">
@@ -33,7 +33,7 @@
                 </div>
                 <div class="text">
                     <h2 class="text-uppercase">Pengiriman Cepat</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan tincidunt fringilla.</p>
+                    <p>Jasa pengiriman pilihan yang kredibel dengan biaya yang bersaing.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="100">
@@ -42,7 +42,7 @@
                 </div>
                 <div class="text">
                     <h2 class="text-uppercase">Aman & Terpercaya</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan tincidunt fringilla.</p>
+                    <p>Marketplace yang langsung ditangani oleh principal.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="200">
@@ -51,7 +51,7 @@
                 </div>
                 <div class="text">
                     <h2 class="text-uppercase">Layanan Pelanggan</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan tincidunt fringilla.</p>
+                    <p>Customer care tersedia untuk menjawab pertanyaan anda.</p>
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0" data-aos="fade" data-aos-delay="">
+            <div class="col-sm-6 col-md-6 col-lg-6 mb-4 mb-lg-0" data-aos="fade" data-aos-delay="">
                 <a class="block-2-item item1" href="{{ route('produk') }}?kategori=latte">
                     <figure class="image">
                         <img src="{{ asset('user_assets/images/Taro.png') }}" alt="" class="img-fluid">
@@ -77,7 +77,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
+            <div class="col-sm-6 col-md-6 col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
                 <a class="block-2-item item2" href="{{ route('produk') }}?kategori=non-latte">
                     <figure class="image">
                         <img src="{{ asset('user_assets/images/Lemontea.png') }}" alt="" class="img-fluid">
@@ -88,7 +88,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
                 <a class="block-2-item item3" href="{{ route('produk') }}?kategori=tennis">
                     <figure class="image">
                         <img src="{{ asset('user_assets/images/Ginger.png') }}" alt="" class="img-fluid">
@@ -98,7 +98,7 @@
                         <h3>Coming Soon</h3>
                     </div>
                 </a>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

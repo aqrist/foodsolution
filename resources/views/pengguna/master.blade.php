@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>TongTji Food Solution &mdash; @yield('title')</title>
+        <title>Tong Tji Food Solution &mdash; @yield('title')</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         @include('pengguna.elemen.static_css')
@@ -31,7 +31,7 @@
 
                             <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
                                 <div class="site-logo">
-                                    <a href="{{ route('beranda') }}" class="js-logo-clone">TongTji Food Solution</a>
+                                    <a href="{{ route('beranda') }}" class="js-logo-clone">Tong Tji Food Solution</a>
                                 </div>
                             </div>
 

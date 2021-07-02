@@ -5,7 +5,7 @@
 @section('content-header')
 <h1>
     Beranda
-    <small>Beranda panel admin TongTji Official Store</small>
+    <small>Beranda panel admin Tong Tji Official Store</small>
 </h1>
 <ol class="breadcrumb">
     <li><a href="#"><i class="fa fa-home"></i> Beranda</a></li>

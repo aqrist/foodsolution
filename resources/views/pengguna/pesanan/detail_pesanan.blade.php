@@ -33,10 +33,10 @@
                                     <b class="text-black">Informasi Pengirim</b><hr>
                                     <i>From,</i>
                                     <b>TFS</b>Store<br>
-                                    TongTji Food Solution<br>
+                                    Tong Tji Food Solution<br>
                                     Tegal, Jawa Tengah<br>
                                     No. Telepon: 0283 356200<br>
-                                    Email: info@tongtjifoodsolution.com
+                                    Email: info@Tong Tjifoodsolution.com
                                 </div>
                                 <div class="col-md-4">
                                     <b class="text-black">Informasi Penerima</b><hr>

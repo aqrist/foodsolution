@@ -24,7 +24,7 @@
                 <div class="mt-lg-5">
                     <small>
                         <address>
-                            <b>TongTji Food Solution</b>
+                            <b>Tong Tji Food Solution</b>
                             <p class="text-muted">
                                 Tegal, Jawa Tengah<br>
                                 +62 123-4567-8910

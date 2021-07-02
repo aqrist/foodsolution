@@ -21,7 +21,7 @@ class EmailController extends Controller
 
             Mail::send('pengguna.email.lupa_password', $pesan, function($message) use ($request) {
                 $message->subject('Konfirmasi Lupa Password');
-                $message->from('no-reply@TongTji Food Solution.com', 'TongTji Food Solution');
+                $message->from('no-reply@Tong Tji Food Solution.com', 'Tong Tji Food Solution');
                 $message->to('dimas.pengguna@email.com');
             });
 
@@ -62,7 +62,7 @@ class EmailController extends Controller
             Mail::send('pengguna.email.hubungi', $pesan, function($message) use ($request) {
                 $message->subject($request->input('subject'));
                 $message->from($request->input('email'), $request->input('nama'));
-                $message->to('cs.info@TongTji Food Solution.com');
+                $message->to('cs.info@Tong Tji Food Solution.com');
             });
 
             return back()->with('success', 'Pesan Berhasil Di Kirim');

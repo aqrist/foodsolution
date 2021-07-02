@@ -13,7 +13,7 @@
         <div class="row">
 
             <div class="col-md-12">
-                {{ Html::image('user_assets/img/new-logo.png', 'TongTji Official Store', ['class' => 'img-responsive mx-auto']) }}
+                {{ Html::image('user_assets/img/new-logo.png', 'Tong Tji Official Store', ['class' => 'img-responsive mx-auto']) }}
                 <hr>
             </div>
 
@@ -26,7 +26,7 @@
                     dengan password baru anda, dan pastikan tidak ada orang yang melihat email ini sebelum anda
                     merubah password yang telah di berikan oleh sistem pada kolom di bawah.
                     <br><br>
-                    #Terima Kasih - TongTji Food Solution Admin.
+                    #Terima Kasih - Tong Tji Food Solution Admin.
                 </p>
                 <table>
                     <tr>

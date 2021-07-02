@@ -105,7 +105,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             TFSAdmin v1.0
         </div>
         <!-- Default to the left -->
-        <strong>Copyright &copy; 2018 <a href="{{ route('beranda') }}">TongTji Food Solution</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; 2018 <a href="{{ route('beranda') }}">Tong Tji Food Solution</a>.</strong> All rights reserved.
     </footer>
 </div>
 <!-- ./wrapper -->

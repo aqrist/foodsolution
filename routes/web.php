@@ -178,7 +178,7 @@ Route::post('get_cost', function(Request $request) {
         CURLOPT_TIMEOUT => 30,
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => "POST",
-        CURLOPT_POSTFIELDS => "origin=115&destination=".$id_city."&weight=".$berat."&courier=jne",
+        CURLOPT_POSTFIELDS => "origin=472&destination=".$id_city."&weight=".$berat."&courier=jne",
         CURLOPT_HTTPHEADER => [
             'content-type: application/x-www-form-urlencoded',
             "key: 1a84ef0ff7cac9bb764f1087e64da8d3"

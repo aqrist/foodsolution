@@ -35,11 +35,11 @@
     <div class="col-sm-4 invoice-col">
         From
         <address>
-            <strong>TongTji Food Solution.</strong><br>
+            <strong>Tong Tji Food Solution.</strong><br>
             Universitas BSI Gedung D2,<br>
             Margonda Depok, Indonesia<br>
             Phone: (123) 45678910<br>
-            Email: info@TongTji Food Solution.com
+            Email: info@Tong Tji Food Solution.com
         </address>
     </div>
     <!-- /.col -->
