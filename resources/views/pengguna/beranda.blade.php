@@ -42,8 +42,7 @@
                 </div>
                 <div class="text">
                     <h2 class="text-uppercase">Jaminan Ongkir Terbaik</h2>
-                    <p>Kami bekerjasama dengan mitra kurir yang kredibel dan memberikan pelayanan terbaik
-                        baik itu kiriman dalam jumlah kecil ataupun partai besar.</p>
+                    <p>Kami bekerjasama dengan mitra kurir yang kredibel dan memberikan pelayanan terbaik, baik kiriman dalam jumlah kecil ataupun partai besar.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="100">

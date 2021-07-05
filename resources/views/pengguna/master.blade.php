@@ -78,7 +78,7 @@
             <footer class="site-footer border-top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-5 mb-5 mb-lg-0" id="kontak">
+                        <!-- <div class="col-lg-5 mb-5 mb-lg-0" id="kontak">
                             {{ Form::open(['route' => 'hubungi_kami']) }}
                             <div class="row">
                                 <div class="col-md-12">
@@ -111,8 +111,8 @@
                                 </div>
                             </div>
                             {{ Form::close() }}
-                        </div>
-                        <div class="col-md-6 col-lg-3">
+                        </div> -->
+                        <div class="col-md-6 col-lg-6">
                             <div class="block-5 mb-5">
                                 <h3 class="footer-heading mb-4">Info Kontak</h3>
                                 <ul class="list-unstyled">
@@ -122,7 +122,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-4">
+                        <div class="col-md-6 col-lg-6">
                                 <div class="block-5 mb-5">
                                     <h3 class="footer-heading mb-4">Tentang Kami</h3>
                                     <p class="text-justify">
