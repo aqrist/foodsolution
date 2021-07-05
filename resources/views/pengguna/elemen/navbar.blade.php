@@ -3,6 +3,7 @@
         <ul class="site-menu js-clone-nav d-none d-md-block">
             <li><a href="{{ route('beranda') }}">Beranda</a></li>
             <li><a href="{{ route('inquiries') }}">Business Inquiries</a></li>
+            
             <li class="has-children">
                 <a href="#">Kategori</a>
                 <ul class="dropdown" id="kategori">
