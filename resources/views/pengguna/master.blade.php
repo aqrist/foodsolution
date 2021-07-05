@@ -126,7 +126,7 @@
                                 <div class="block-5 mb-5">
                                     <h3 class="footer-heading mb-4">Tentang Kami</h3>
                                     <p class="text-justify">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi dolor fugit laudantium velit voluptatibus voluptas, voluptates et quia similique tempora cum temporibus culpa pariatur molestiae, provident, aspernatur animi ad magnam.
+                                        Tong Tji Food Solutions adalah one stop shopping untuk kebutuhan usaha anda. Produk-produk kami berkualitas dan kami berkomitmen untuk selalu memberikan yang terbaik untuk Anda !
                                     </p>
                                 </div>
                             </div>

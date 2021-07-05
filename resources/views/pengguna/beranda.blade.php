@@ -9,7 +9,7 @@
             <div class="col-md-5 text-center text-md-left pt-5 pt-md-0">
                 <h1 class="mb-2 text-white">Temukan pilihan terbaikmu</h1>
                 <div class="intro-text text-center text-md-left">
-                    <p class="mb-4 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan tincidunt fringilla. </p>
+                    <p class="mb-4 text-white">Tong Tji Food Solutions, menyediakan produk-produk minuman instan dengan kualitas premium dan harga yang kompetitif. Kepuasan pelanggan adalah prioritas kami. </p>
                     <p>
                         <a href="{{ route('produk') }}" class="btn btn-sm btn-primary">Belanja Sekarang</a>
                     </p>
@@ -27,31 +27,42 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="">
+            <div class="col-md-6 col-lg-3 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="">
+                <div class="icon mr-4 align-self-start">
+                    <span class="icon-check"></span>
+                </div>
+                <div class="text">
+                    <h2 class="text-uppercase">Jaminan Asli & berkualitas</h2>
+                    <p>Produk asli dan berkualitas dari Tong Tji Food Solutions.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="">
                 <div class="icon mr-4 align-self-start">
                     <span class="icon-truck"></span>
                 </div>
                 <div class="text">
-                    <h2 class="text-uppercase">Pengiriman Cepat</h2>
-                    <p>Jasa pengiriman pilihan yang kredibel dengan biaya yang bersaing.</p>
+                    <h2 class="text-uppercase">Jaminan Ongkir Terbaik</h2>
+                    <p>Kami bekerjasama dengan mitra kurir yang kredibel dan memberikan pelayanan terbaik
+                        baik itu kiriman dalam jumlah kecil ataupun partai besar.</p>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-md-6 col-lg-3 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="icon mr-4 align-self-start">
                     <span class="icon-shield"></span>
                 </div>
                 <div class="text">
-                    <h2 class="text-uppercase">Aman & Terpercaya</h2>
-                    <p>Marketplace yang langsung ditangani oleh principal.</p>
+                    <h2 class="text-uppercase">Jaminan Eksklusif</h2>
+                    <p>Penawaran ekslusif, informasi promo, diskon dan special rewards untuk
+                        pelanggan.</p>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-md-6 col-lg-3 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon mr-4 align-self-start">
                     <span class="icon-help"></span>
                 </div>
                 <div class="text">
-                    <h2 class="text-uppercase">Layanan Pelanggan</h2>
-                    <p>Customer care tersedia untuk menjawab pertanyaan anda.</p>
+                    <h2 class="text-uppercase">Jaminan Layanan</h2>
+                    <p>Kontak customer service kami siap melayani pertanyaan Anda.</p>
                 </div>
             </div>
         </div>
@@ -88,7 +99,7 @@
                     </div>
                 </a>
             </div>
-            <!-- <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
+            <!-- <div class="col-sm-6 col-md-6 col-lg-3 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
                 <a class="block-2-item item3" href="{{ route('produk') }}?kategori=tennis">
                     <figure class="image">
                         <img src="{{ asset('user_assets/images/Ginger.png') }}" alt="" class="img-fluid">
