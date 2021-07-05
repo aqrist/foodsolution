@@ -19,21 +19,11 @@
     <div class="container">
         <div class="row justify-content-center" data-aos="fade-up">
             <div class="col-lg-5 mb-5 mb-lg-0" id="kontak">
-                {{ Form::open(['route' => 'hubungi_kami']) }}
+                <!-- {{ Form::open(['route' => 'hubungi_kami']) }} -->
                 <div class="row">
                     <div class="col-md-12">
                         <h3 class="footer-heading mb-4">Business Inquiries</h3>
                     </div>
-                    <!-- <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="text" name="nama" class="form-control" placeholder="Nama Pengguna">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="form-group">
-                            <input type="email" name="email" class="form-control" placeholder="Email Pengguna">
-                        </div>
-                    </div> -->
                     <div class="col-md-6 col-lg-12">
                         <div class="form-group">
                             <input type="text" name="nama" class="form-control" placeholder="Nama">
@@ -64,7 +54,7 @@
                             <input type="email" name="mail" class="form-control" placeholder="Alamat E-Mail">
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-12">
+                    <!-- <div class="col-md-6 col-lg-12">
                         <div class="form-group">
                             <select class="form-control" placeholder="Pilih Kategori">
                                 <option>Pilih Kategori</option>
@@ -72,7 +62,7 @@
                                 <option>Non Latte</option>
                             </select>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-md-6 col-lg-12">
                         <div class="form-group">
                             <input type="text" name="productname" class="form-control" placeholder="Nama Produk">
@@ -89,7 +79,7 @@
                         </div>
                     </div>
                 </div>
-                {{ Form::close() }}
+                <!-- {{ Form::close() }} -->
             </div>
         </div>
     </div>

@@ -224,7 +224,7 @@ Route::get('invoice/{id_invoice}', 'Pengguna\Pesanan\PesananController@invoice')
 // Halaman Inquiries
 Route::get('inquiries', function(){
     return view('pengguna.inquiries.inquiries');
-});
+})->name('inquiries');
 
 
 
