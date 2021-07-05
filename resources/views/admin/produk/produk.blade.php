@@ -67,7 +67,7 @@
                         </select>
                         <span class="help-block"><small>Silahkan pilih kategori produk yang sesuai</small></span>
                     </div>
-                    <div class="form-group has-feedback">
+                    <!-- <div class="form-group has-feedback">
                         {!! Form::label('inp_id_merk', 'Pilih Merk Produk') !!}
                         <select name="id_merk" id="inp_id_merk" class="form-control">
                             <option> === PILIH MERK ===</option>
@@ -76,7 +76,7 @@
                             @endforeach
                         </select>
                         <span class="help-block"><small>Silahkan pilih merk produk yang sesuai</small></span>
-                    </div>
+                    </div> -->
                     <div class="form-group has-feedback">
                         {!! Form::label('inp_deskripsi_barang', 'Deskripsi Barang') !!}
                         {!! Form::textarea('deskripsi_barang', null, ['id' => 'inp_deskripsi_barang', 'class' => 'form-control']) !!}
@@ -140,7 +140,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <!-- <div class="col-md-3">
                         <div class="form-group">
                             <select name="merk" class="form-control">
                                 <option value>Pilih Merk...</option>
@@ -149,7 +149,7 @@
                                 @endforeach
                             </select>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-md-3">
                         <div class="form-group">
                             <button type="submit" class="btn btn-warning">Filter</button>
@@ -164,7 +164,7 @@
                             <th>ID Produk</th>
                             <th>Nama Produk</th>
                             <th>Kategori</th>
-                            <th>Merk</th>
+                            <!-- <th>Merk</th> -->
                             <th>Status</th>
                             <th>Tanggal Masuk</th>
                             <th>Aksi</th>
@@ -177,7 +177,7 @@
                                 <td id="id_{{ $counter }}">{{ $item->id_barang }}</td>
                                 <td id="nama_{{ $counter }}">{{ $item->nama_barang  }}</td>
                                 <td id="kategori_{{ $counter }}">{{ $item->nama_kategori  }}</td>
-                                <td id="merk_{{ $counter }}">{{ $item->nama_merk  }}</td>
+                                <!-- <td id="merk_{{ $counter }}">{{ $item->nama_merk  }}</td> -->
                                 <td>
                                     @if($item->stok_barang > 0)
                                         <span class="label bg-green"><i class="fa fa-check fa-fw"></i> Tersedia</span>
@@ -247,7 +247,7 @@
                             </select>
                             <span class="help-block"><small>Silahkan pilih kategori produk yang sesuai</small></span>
                         </div>
-                        <div class="form-group has-feedback">
+                        <!-- <div class="form-group has-feedback">
                             {!! Form::label('inp_edit_id_merk', 'Pilih Merk Produk') !!}
                             <select name="id_merk" id="inp_edit_id_merk" class="form-control">
                                 <option> === PILIH MERK ===</option>
@@ -258,7 +258,7 @@
                                 @endforeach
                             </select>
                             <span class="help-block"><small>Silahkan pilih merk produk yang sesuai</small></span>
-                        </div>
+                        </div> -->
                         <div class="form-group has-feedback">
                             {!! Form::label('inp_edit_foto_barang', 'Foto Product') !!}
                             {!! Form::file('foto_barang', ['id' => 'inp_edit_foto_barang', 'class' => 'form-control' , 'style' => 'border: none;', 'accept' => '.jpg, .jpeg, .png']) !!}

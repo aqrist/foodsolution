@@ -62,7 +62,7 @@ class EmailController extends Controller
             Mail::send('pengguna.email.hubungi', $pesan, function($message) use ($request) {
                 $message->subject($request->input('subject'));
                 $message->from($request->input('email'), $request->input('nama'));
-                $message->to('cs.info@Tong Tji Food Solution.com');
+                $message->to('cs.info@tongtjifoodsolution.com');
             });
 
             return back()->with('success', 'Pesan Berhasil Di Kirim');

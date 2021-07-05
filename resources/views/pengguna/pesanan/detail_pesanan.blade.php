@@ -36,7 +36,7 @@
                                     Tong Tji Food Solution<br>
                                     Tegal, Jawa Tengah<br>
                                     No. Telepon: 0283 356200<br>
-                                    Email: info@Tong Tjifoodsolution.com
+                                    Email: info@tongtjifoodsolution.com
                                 </div>
                                 <div class="col-md-4">
                                     <b class="text-black">Informasi Penerima</b><hr>

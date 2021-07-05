@@ -81,10 +81,10 @@
     <div class="col-xs-6">
         <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
             <strong>Tong Tji Food Solution.</strong><br>
-            Universitas BSI Gedung D2,<br>
-            Margonda Depok, Indonesia<br>
+            PT. Cahaya Tirta Aroma,<br>
+            Lemahduwur, Kab. Tegal, Jawa Tengah<br>
             Phone: (123) 45678910<br>
-            Email: info@Tong Tji Food Solution.com
+            Email: info@tongtjifoodsolution.com
         </p>
     </div>
     <!-- /.col -->

@@ -6,7 +6,7 @@
     <li class="header">MANAJEMEN</li>
     <li><a href="{{ route('list_produk') }}"><i class="fa fa-cubes"></i> <span>Produk <span class="label bg-primary pull-right" id="jml_produk"></span></span></a></li>
     <li><a href="{{ route('kategori_produk') }}"><i class="fa fa-clipboard"></i> <span>Kategori <span class="label bg-primary pull-right" id="jml_kategori"></span></span></a></li>
-    <li><a href="{{ route('merk_produk') }}"><i class="fa fa-tags"></i> <span>Merk <span class="label bg-primary pull-right" id="jml_merk"></span></span></a></li>
+    <!-- <li><a href="{{ route('merk_produk') }}"><i class="fa fa-tags"></i> <span>Merk <span class="label bg-primary pull-right" id="jml_merk"></span></span></a></li> -->
     @if (session('superadmin') == true)
     <li class="header">SUPERADMIN</li>
     <li><a href="{{ route('superadmin_pengguna') }}"><i class="fa fa-users"></i> <span>Pengguna <span class="label bg-purple pull-right" id="jml_pengguna"></span></span></a></li>
