@@ -221,6 +221,11 @@ Route::put('pembayaran/upload-bukti/{id_pesanan}/save', 'Pengguna\Pesanan\Pembay
 
 Route::get('invoice/{id_invoice}', 'Pengguna\Pesanan\PesananController@invoice')->name('invoice');
 
+// Halaman Inquiries
+Route::get('inquiries', function(){
+    return view('pengguna.inquiries.inquiries');
+});
+
 
 
 /**
