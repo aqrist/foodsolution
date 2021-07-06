@@ -2,14 +2,13 @@
     <div class="container">
         <ul class="site-menu js-clone-nav d-none d-md-block">
             <li><a href="{{ route('beranda') }}">Beranda</a></li>
-            <li><a href="{{ route('inquiries') }}">Business Inquiries</a></li>
-            
             <li class="has-children">
                 <a href="#">Kategori</a>
                 <ul class="dropdown" id="kategori">
                 </ul>
             </li>
             <li><a href="{{ route('produk') }}">Lihat Katalog</a></li>
+            <li><a href="{{ route('inquiries') }}">Kontak Kami</a></li>
             <!-- <li><a href="#kontak">Kontak Kami</a></li> -->
             @if(session()->has('email_pengguna'))
                 <li><a href="{{ route('logout') }}">Keluar</a></li>

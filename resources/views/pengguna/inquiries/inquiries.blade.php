@@ -7,7 +7,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 mb-0">
-                <a href="#">Business Inquiries</a>
+                <a href="#">Kontak Kami</a>
             </div>
         </div>
     </div>
