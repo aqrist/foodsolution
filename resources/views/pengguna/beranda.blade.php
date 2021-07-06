@@ -7,13 +7,17 @@
     <div class="container">
         <div class="row align-items-start align-items-md-center justify-content-end">
             <div class="col-md-5 text-center text-md-left pt-5 pt-md-0">
+                <br>
+                <br>
+                <br>
+                <br>
                 <h1 class="mb-2 text-white">Temukan pilihan terbaikmu</h1>
-                <div class="intro-text text-center text-md-left">
-                    <p class="mb-4 text-white">Tong Tji Food Solutions, menyediakan produk-produk minuman instan dengan kualitas premium dan harga yang kompetitif. Kepuasan pelanggan adalah prioritas kami. </p>
+                <!-- <div class="intro-text text-center text-md-left"> -->
+                    <!-- <p class="mb-4 text-white">Tong Tji Food Solutions, menyediakan produk-produk minuman instan dengan kualitas premium dan harga yang kompetitif. Kepuasan pelanggan adalah prioritas kami. </p> -->
                     <p>
                         <a href="{{ route('produk') }}" class="btn btn-sm btn-primary">Belanja Sekarang</a>
                     </p>
-                </div>
+                <!-- </div> -->
             </div>
         </div>
     </div>
