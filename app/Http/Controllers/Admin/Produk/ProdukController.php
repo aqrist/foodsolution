@@ -199,6 +199,7 @@ class ProdukController extends Controller
                     'berat_barang'  => $request->input('berat_barang'),
                     'harga_satuan'  => $request->input('harga_satuan'),
                     'stok_barang'   => $request->input('stok_barang'),
+                    'deskripsi_barang' => $request->input('deskripsi_barang'),
                     'foto_barang'   => $request->hasFile('foto_barang') ? $foto_produk : $data->foto_barang,
                     // add foto detail
                     'foto_detail'   => $request->hasFile('foto_detail') ? $foto_produk_detail : $data2->foto_detail,
