@@ -47,11 +47,28 @@
                 @endif
             </div>
             <div class="col-md-6">
-                {{ Html::image(asset('storage/produk/'.$detail->foto_barang), $detail->nama_barang, ['class' => 'img-fluid']) }}
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    {{ Html::image(asset('storage/produk/'.$detail->foto_barang), $detail->nama_barang, ['class' => 'img-fluid']) }}
+                    </div>
+                    <div class="carousel-item">
+                    {{ Html::image(asset('storage/produk/'.$detail->foto_detail), $detail->nama_barang, ['class' => 'img-fluid']) }}
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
             </div>
             <div class="col-md-6">
                 <h2 class="text-black my-3"> {{ $detail->nama_barang }}</h2>
-                {!! $detail->deskripsi_barang !!}
+                <!-- {!! $detail->deskripsi_barang !!} -->
                 <table class="table mb-5">
                 <tr>
                     <td>Berat</td>
@@ -105,6 +122,8 @@
                 </button>
             @endif
             </p>
+            <br>
+            {!! $detail->deskripsi_barang !!}
             {{ Form::close() }}
       </div>
     </div>

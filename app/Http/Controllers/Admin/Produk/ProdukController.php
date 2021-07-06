@@ -84,7 +84,9 @@ class ProdukController extends Controller
                 'berat_barang'      => 'required|integer',
                 'harga_satuan'      => 'required|integer',
                 'stok_barang'       => 'required|integer',
-                'foto_barang'       => 'required|mimes:jpg,jpeg,png'
+                'foto_barang'       => 'required|mimes:jpg,jpeg,png',
+                // add foto detail
+                'foto_detail'       => 'required|mimes:jpg,jpeg,png'
             ]);
 
             if ($validasi->fails()) {
@@ -98,10 +100,17 @@ class ProdukController extends Controller
                 $id_barang = $this->set_id_barang();
 
                 $extension = $request->file('foto_barang')->getClientOriginalExtension();
+                // foto detail
+                $extension2 = $request->file('foto_detail')->getClientOriginalExtension();
 
                 $foto_produk = Storage::putFileAs(
                     'public/produk/',
                     $request->file('foto_barang'), $id_barang.'.'.$extension
+                );
+                // foto detail
+                $foto_produk_detail = Storage::putFileAs(
+                    'public/produk/',
+                    $request->file('foto_detail'), $id_barang.'DET'.'.'.$extension2
                 );
 
                 DB::table('tbl_barang')->insert([
@@ -115,6 +124,7 @@ class ProdukController extends Controller
                     'harga_satuan'      => $request->input('harga_satuan'),
                     'stok_barang'       => $request->input('stok_barang'),
                     'foto_barang'       => basename($foto_produk),
+                    'foto_detail'       => basename($foto_produk_detail),
                 ]);
 
                 return redirect()->route('list_produk')->with('success', 'Produk Berhasil DI Simpan');
@@ -150,12 +160,18 @@ class ProdukController extends Controller
             }
 
             $data = DB::table('tbl_barang')->select('foto_barang')->where('id_barang', $id_barang)->first();
+            // add detail foto
+            $data2 = DB::table('tbl_barang')->select('foto_detail')->where('id_barang', $id_barang)->first();
 
             if($request->hasFile('foto_barang')) {
 
                 Storage::delete('public/produk/'.$data->foto_barang);
+                // delete foto detail
+                Storage::delete('public/produk/'.$data2->foto_detail);
 
                 $extension = $request->file('foto_barang')->getClientOriginalExtension();
+                // foto detail
+                $extension2 = $request->file('foto_detail')->getClientOriginalExtension();
 
                 $save_foto = Storage::putFileAs(
                     'public/produk/',
@@ -163,6 +179,14 @@ class ProdukController extends Controller
                 );
 
                 $foto_produk = basename($save_foto);
+
+                // foto detail
+                $save_foto_detail = Storage::putFileAs(
+                    'public/produk/',
+                    $request->file('foto_detail'), $id_barang.'DET'.'.'.$extension2
+                );
+
+                $foto_produk_detail = basename($save_foto_detail);
 
             }
 
@@ -176,9 +200,11 @@ class ProdukController extends Controller
                     'harga_satuan'  => $request->input('harga_satuan'),
                     'stok_barang'   => $request->input('stok_barang'),
                     'foto_barang'   => $request->hasFile('foto_barang') ? $foto_produk : $data->foto_barang,
+                    // add foto detail
+                    'foto_detail'   => $request->hasFile('foto_detail') ? $foto_produk_detail : $data2->foto_detail,
                 ]);
 
-            return redirect()->route('list_produk')->with('success', 'Produk Berhasil DI Simpan');
+            return redirect()->route('list_produk')->with('success', 'Produk Berhasil Di Simpan');
 
         } else {
 
@@ -192,6 +218,8 @@ class ProdukController extends Controller
         $data = DB::table('tbl_barang')->where('id_barang', $id_barang);
 
         Storage::delete('public/produk/'.$data->first()->foto_barang);
+        // hapus foto detail
+        Storage::delete('public/produk/'.$data->first()->foto_detail);
 
         $data->delete();
 

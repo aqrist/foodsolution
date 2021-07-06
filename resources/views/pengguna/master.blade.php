@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Tong Tji Food Solution &mdash; @yield('title')</title>
+        <title>Tong Tji food solutions &mdash; @yield('title')</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         @include('pengguna.elemen.static_css')
@@ -52,7 +52,7 @@
 
                             <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
                                 <div class="site-logo">
-                                    <a href="{{ route('beranda') }}" class="js-logo-clone">Tong Tji Food Solution</a>
+                                    <a href="{{ route('beranda') }}" class="js-logo-clone">Tong Tji food solutions</a>
                                 </div>
                             </div>
 
@@ -147,7 +147,7 @@
                                 <div class="block-5 mb-5">
                                     <h3 class="footer-heading mb-4">Tentang Kami</h3>
                                     <p class="text-justify">
-                                        Tong Tji Food Solutions adalah one stop shopping untuk kebutuhan usaha anda. Produk-produk kami berkualitas dan kami berkomitmen untuk selalu memberikan yang terbaik untuk Anda !
+                                        Tong Tji food solutionss adalah one stop shopping untuk kebutuhan usaha anda. Produk-produk kami berkualitas dan kami berkomitmen untuk selalu memberikan yang terbaik untuk Anda !
                                     </p>
                                 </div>
                             </div>

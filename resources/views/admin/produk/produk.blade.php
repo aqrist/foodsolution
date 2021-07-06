@@ -104,6 +104,12 @@
                         {!! Form::file('foto_barang', ['id' => 'inp_foto_barang', 'class' => 'form-control' , 'style' => 'border: none;', 'accept' => '.jpg, .jpeg, .png']) !!}
                         <span class="help-block"><small>Silahkan pilih foto product</small></span>
                     </div>
+                    <!-- add detail foto -->
+                    <div class="form-group has-feedback">
+                        {!! Form::label('inp_edit_foto_detail', 'Foto Product 2') !!}
+                        {!! Form::file('foto_detail', ['id' => 'inp_edit_foto_detail', 'class' => 'form-control' , 'style' => 'border: none;', 'accept' => '.jpg, .jpeg, .png']) !!}
+                        <span class="help-block"><small>Silahkan pilih foto detail product</small></span>
+                    </div>
                 </div>
                 <div class="col-md-12">
                     <div class="form-group has-feedback">
@@ -264,6 +270,12 @@
                             {!! Form::file('foto_barang', ['id' => 'inp_edit_foto_barang', 'class' => 'form-control' , 'style' => 'border: none;', 'accept' => '.jpg, .jpeg, .png']) !!}
                             <span class="help-block"><small>Silahkan pilih foto product</small></span>
                         </div>
+                        <!-- add detail foto -->
+                        <div class="form-group has-feedback">
+                            {!! Form::label('inp_edit_foto_detail', 'Foto Product 2') !!}
+                            {!! Form::file('foto_detail', ['id' => 'inp_edit_foto_detail', 'class' => 'form-control' , 'style' => 'border: none;', 'accept' => '.jpg, .jpeg, .png']) !!}
+                            <span class="help-block"><small>Silahkan pilih foto detail product</small></span>
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group has-feedback">
@@ -290,6 +302,8 @@
                         </div>
                         <h3 class="text-center">Foto Produk</h3>
                         {{ Html::image(null, null, ['id' => 'foto_barang', 'class' => 'img-responsive', 'style' => 'margin: 0 auto;']) }}
+                        <h3 class="text-center">Foto Produk Detail</h3>
+                        {{ Html::image(null, null, ['id' => 'foto_detail', 'class' => 'img-responsive', 'style' => 'margin: 0 auto;']) }}
                     </div>
                 </div>
                 <div class="modal-footer">
