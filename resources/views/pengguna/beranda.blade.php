@@ -23,7 +23,7 @@
     <div class="container">
         <div class="row justify-content-center" data-aos="fade-up">
             <div class="col-md-12 site-section-heading text-center pt-4 pb-5">
-                <h2>Kenapa Harus Di Tong Tji Food Solution?</h2>
+                <h2>Kenapa Harus di Tong Tji Food Solution?</h2>
             </div>
         </div>
         <div class="row">
