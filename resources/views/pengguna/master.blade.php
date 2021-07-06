@@ -139,7 +139,7 @@
                                 <ul class="list-unstyled">
                                     <li class="address">Tegal, Jawa Tengah</li>
                                     <li class="phone"><a href="tel://+6212345678910">0283 356200</a></li>
-                                    <li class="email">devs@tongtji.com</li>
+                                    <li class="email">foodsolutions@tongtji.com</li>
                                 </ul>
                             </div>
                         </div>
@@ -147,7 +147,7 @@
                                 <div class="block-5 mb-5">
                                     <h3 class="footer-heading mb-4">Tentang Kami</h3>
                                     <p class="text-justify">
-                                        Tong Tji food solutionss adalah one stop shopping untuk kebutuhan usaha anda. Produk-produk kami berkualitas dan kami berkomitmen untuk selalu memberikan yang terbaik untuk Anda !
+                                        Tong Tji food solutions adalah one stop shopping untuk kebutuhan usaha anda. Produk-produk kami berkualitas dan kami berkomitmen untuk selalu memberikan yang terbaik untuk Anda !
                                     </p>
                                 </div>
                             </div>

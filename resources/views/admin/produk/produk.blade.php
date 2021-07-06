@@ -291,7 +291,7 @@
                         <div class="form-group has-feedback">
                             {!! Form::label('inp_edit_stok_barang', 'Stok Barang') !!}
                             {!! Form::number('stok_barang',  null, ['id' => 'inp_edit_stok_barang', 'class' => 'form-control']) !!}
-                            <span class="help-block"><small>Silahkan masukan stok produk yanpa karakter khusus dan alphabet</small></span>
+                            <span class="help-block"><small>Silahkan masukan stok produk tanpa karakter khusus dan alphabet</small></span>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -301,9 +301,9 @@
                             <span class="help-block"><small>Silahkan Masukan Deskripsi Produk</small></span>
                         </div>
                         <h3 class="text-center">Foto Produk</h3>
-                        {{ Html::image(null, null, ['id' => 'foto_barang', 'class' => 'img-responsive', 'style' => 'margin: 0 auto;']) }}
+                        <!-- {{ Html::image(null, null, ['id' => 'foto_barang', 'class' => 'img-responsive', 'style' => 'margin: 0 auto;']) }} -->
                         <h3 class="text-center">Foto Produk Detail</h3>
-                        {{ Html::image(null, null, ['id' => 'foto_detail', 'class' => 'img-responsive', 'style' => 'margin: 0 auto;']) }}
+                        {{ Html::image(null, null, ['id' => 'deskripsi_barang', 'class' => 'img-responsive', 'style' => 'margin: 0 auto;']) }}
                     </div>
                 </div>
                 <div class="modal-footer">

@@ -111,7 +111,7 @@
                             PT. Cahaya Tirta Aroma,<br>
                             Lemahduwur, Kab. Tegal, Jawa Tengah<br>
                             Phone: (123) 45678910<br>
-                            Email: info@tongtjifoodsolution.com
+                            Email: foodsolutions@tongtji.com
                         </p>
                     </div>
                     <!-- /.col -->
