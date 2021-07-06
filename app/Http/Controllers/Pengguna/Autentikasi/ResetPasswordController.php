@@ -170,7 +170,7 @@ class ResetPasswordController extends Controller
 
                     Mail::send('pengguna.email.lupa_password', $pesan, function($message) use ($request) {
                         $message->subject('Lupa Password');
-                        $message->from('no-reply@tongtji.com', 'Tong Tji food solutions Customer Service');
+                        $message->from('no-reply@tongtji.com', 'Tong Tji Food Solutions Customer Service');
                         $message->to($request->input('email'));
                     });
 

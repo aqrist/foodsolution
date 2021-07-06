@@ -21,7 +21,7 @@ class EmailController extends Controller
 
             Mail::send('pengguna.email.lupa_password', $pesan, function($message) use ($request) {
                 $message->subject('Konfirmasi Lupa Password');
-                $message->from('no-reply@tongtji.com', 'Tong Tji food solutions');
+                $message->from('no-reply@tongtji.com', 'Tong Tji Food Solutions');
                 $message->to('aqrist@gmail.com');
             });
 

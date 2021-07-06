@@ -80,7 +80,7 @@
     <!-- accepted payments column -->
     <div class="col-xs-6">
         <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-            <strong>Tong Tji food solutions.</strong><br>
+            <strong>Tong Tji Food Solutions.</strong><br>
             PT. Cahaya Tirta Aroma,<br>
             Lemahduwur, Kab. Tegal, Jawa Tengah<br>
             Phone: (123) 45678910<br>

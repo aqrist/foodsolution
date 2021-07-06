@@ -9,7 +9,7 @@
             <div class="col-md-5 text-center text-md-left pt-5 pt-md-0">
                 <h1 class="mb-2 text-white">Temukan pilihan terbaikmu</h1>
                 <div class="intro-text text-center text-md-left">
-                    <p class="mb-4 text-white">Tong Tji food solutions, menyediakan produk-produk minuman instan dengan kualitas premium dan harga yang kompetitif. Kepuasan pelanggan adalah prioritas kami. </p>
+                    <p class="mb-4 text-white">Tong Tji Food Solutions, menyediakan produk-produk minuman instan dengan kualitas premium dan harga yang kompetitif. Kepuasan pelanggan adalah prioritas kami. </p>
                     <p>
                         <a href="{{ route('produk') }}" class="btn btn-sm btn-primary">Belanja Sekarang</a>
                     </p>
@@ -23,7 +23,7 @@
     <div class="container">
         <div class="row justify-content-center" data-aos="fade-up">
             <div class="col-md-12 site-section-heading text-center pt-4 pb-5">
-                <h2>Kenapa Harus di Tong Tji food solutions?</h2>
+                <h2>Kenapa Harus di Tong Tji Food Solutions?</h2>
             </div>
         </div>
         <div class="row">
@@ -33,7 +33,7 @@
                 </div>
                 <div class="text">
                     <h2 class="text-uppercase">Jaminan Asli & berkualitas</h2>
-                    <p>Produk asli dan berkualitas dari Tong Tji food solutions.</p>
+                    <p>Produk asli dan berkualitas dari Tong Tji Food Solutions.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="">

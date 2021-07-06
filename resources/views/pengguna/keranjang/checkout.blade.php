@@ -191,7 +191,7 @@
                                     <div class="py-2">
                                         <p class="mb-0 text-black">
                                             Silahkan Transfer Ke Rekening Di Bawah :<br>
-                                            {{ Html::image(asset('user_assets/images/mandiri_logo.jpg')) }} 12345678910 a/n Tong Tji food solutions<br><br>
+                                            {{ Html::image(asset('user_assets/images/mandiri_logo.jpg')) }} 12345678910 a/n Tong Tji Food Solutions<br><br>
                                             <small>
                                                 Untuk saat ini kami hanya menggunakan rekening yang tertera di atas, <br>
                                                 jika anda transfer pembayaran selain menggunakan rekening di atas kami tidak bertanggung jawab.

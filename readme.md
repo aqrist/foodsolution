@@ -1,1 +1,1 @@
-## PROJECT TONGJI food solutions
+## PROJECT TONGTJI Food Solutions

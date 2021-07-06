@@ -26,7 +26,7 @@
                     dengan password baru anda, dan pastikan tidak ada orang yang melihat email ini sebelum anda
                     merubah password yang telah di berikan oleh sistem pada kolom di bawah.
                     <br><br>
-                    #Terima Kasih - Tong Tji food solutions Admin.
+                    #Terima Kasih - Tong Tji Food Solutions Admin.
                 </p>
                 <table>
                     <tr>
