@@ -124,6 +124,8 @@
             </p>
             <br>
             {!! $detail->deskripsi_barang !!}
+            <br>
+            {{ Html::image(asset('storage/produk/'.$detail->foto_saran), $detail->nama_barang, ['class' => 'img-fluid']) }}
             {{ Form::close() }}
       </div>
     </div>

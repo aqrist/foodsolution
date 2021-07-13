@@ -86,7 +86,9 @@ class ProdukController extends Controller
                 'stok_barang'       => 'required|integer',
                 'foto_barang'       => 'required|mimes:jpg,jpeg,png',
                 // add foto detail
-                'foto_detail'       => 'required|mimes:jpg,jpeg,png'
+                'foto_detail'       => 'required|mimes:jpg,jpeg,png',
+                // add foto saran
+                'foto_saran'       => 'required|mimes:jpg,jpeg,png'
             ]);
 
             if ($validasi->fails()) {
@@ -102,6 +104,8 @@ class ProdukController extends Controller
                 $extension = $request->file('foto_barang')->getClientOriginalExtension();
                 // foto detail
                 $extension2 = $request->file('foto_detail')->getClientOriginalExtension();
+                // foto saran
+                $extension3 = $request->file('foto_saran')->getClientOriginalExtension();
 
                 $foto_produk = Storage::putFileAs(
                     'public/produk/',
@@ -111,6 +115,11 @@ class ProdukController extends Controller
                 $foto_produk_detail = Storage::putFileAs(
                     'public/produk/',
                     $request->file('foto_detail'), $id_barang.'DET'.'.'.$extension2
+                );
+                // foto saran
+                $foto_produk_saran = Storage::putFileAs(
+                    'public/produk/',
+                    $request->file('foto_saran'), $id_barang.'SARAN'.'.'.$extension3
                 );
 
                 DB::table('tbl_barang')->insert([
@@ -125,6 +134,7 @@ class ProdukController extends Controller
                     'stok_barang'       => $request->input('stok_barang'),
                     'foto_barang'       => basename($foto_produk),
                     'foto_detail'       => basename($foto_produk_detail),
+                    'foto_saran'       => basename($foto_produk_saran),
                 ]);
 
                 return redirect()->route('list_produk')->with('success', 'Produk Berhasil DI Simpan');
@@ -162,16 +172,22 @@ class ProdukController extends Controller
             $data = DB::table('tbl_barang')->select('foto_barang')->where('id_barang', $id_barang)->first();
             // add detail foto
             $data2 = DB::table('tbl_barang')->select('foto_detail')->where('id_barang', $id_barang)->first();
+            // add saran foto
+            $data3 = DB::table('tbl_barang')->select('foto_saran')->where('id_barang', $id_barang)->first();
 
             if($request->hasFile('foto_barang')) {
 
                 Storage::delete('public/produk/'.$data->foto_barang);
                 // delete foto detail
                 Storage::delete('public/produk/'.$data2->foto_detail);
+                // delete foto saran
+                Storage::delete('public/produk/'.$data3->foto_saran);
 
                 $extension = $request->file('foto_barang')->getClientOriginalExtension();
                 // foto detail
                 $extension2 = $request->file('foto_detail')->getClientOriginalExtension();
+                // foto saran
+                $extension3 = $request->file('foto_saran')->getClientOriginalExtension();
 
                 $save_foto = Storage::putFileAs(
                     'public/produk/',
@@ -188,6 +204,14 @@ class ProdukController extends Controller
 
                 $foto_produk_detail = basename($save_foto_detail);
 
+                // foto saran
+                $save_foto_saran = Storage::putFileAs(
+                    'public/produk/',
+                    $request->file('foto_saran'), $id_barang.'SARAN'.'.'.$extension3
+                );
+
+                $foto_produk_saran = basename($save_foto_saran);
+
             }
 
             DB::table('tbl_barang')->where('id_barang', $id_barang)
@@ -203,6 +227,8 @@ class ProdukController extends Controller
                     'foto_barang'   => $request->hasFile('foto_barang') ? $foto_produk : $data->foto_barang,
                     // add foto detail
                     'foto_detail'   => $request->hasFile('foto_detail') ? $foto_produk_detail : $data2->foto_detail,
+                    // add foto detail
+                    'foto_saran'   => $request->hasFile('foto_saran') ? $foto_produk_saran : $data3->foto_saran,
                 ]);
 
             return redirect()->route('list_produk')->with('success', 'Produk Berhasil Di Simpan');
@@ -221,6 +247,8 @@ class ProdukController extends Controller
         Storage::delete('public/produk/'.$data->first()->foto_barang);
         // hapus foto detail
         Storage::delete('public/produk/'.$data->first()->foto_detail);
+        // hapus foto saran
+        Storage::delete('public/produk/'.$data->first()->foto_saran);
 
         $data->delete();
 

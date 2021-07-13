@@ -67,7 +67,7 @@ img.product {
                                 </figure>
                                 <div class="block-4-text p-4">
                                     <h3><a href="{{ route('detail_produk', ['id_barang' => $item->id_barang]) }}">{{ $item->nama_barang }}</a></h3>
-                                    <p class="mb-0">Official Tong Tji Food Solutions</p>
+                                    <!-- <p class="mb-0">Official Tong Tji Food Solutions</p> -->
                                     <p class="text-primary font-weight-bold">{{ Rupiah::create($item->harga_satuan) }}</p>
                                 </div>
                             </div>

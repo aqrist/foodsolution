@@ -7,7 +7,8 @@
                 <ul class="dropdown" id="kategori">
                 </ul>
             </li>
-            <li><a href="{{ route('produk') }}">Lihat Katalog</a></li>
+            <li><a href="{{ route('produk') }}">Produk</a></li>
+            <li><a href="{{ route('katalog') }}">Lihat Katalog</a></li>
             <li><a href="{{ route('inquiries') }}">Kontak Kami</a></li>
             <!-- <li><a href="#kontak">Kontak Kami</a></li> -->
             @if(session()->has('email_pengguna'))

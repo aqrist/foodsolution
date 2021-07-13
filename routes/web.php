@@ -226,6 +226,11 @@ Route::get('inquiries', function(){
     return view('pengguna.inquiries.inquiries');
 })->name('inquiries');
 
+// Halaman Inquiries
+Route::get('katalog', function(){
+    return view('pengguna.katalog.katalog');
+})->name('katalog');
+
 
 
 /**
