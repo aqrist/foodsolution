@@ -51,8 +51,8 @@
                             </div>
 
                             <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
-                                <div class="site-logo">
-                                    <a href="{{ route('beranda') }}" class="js-logo-clone">Tong Tji Food Solutions</a>
+                                <div class="logo">
+                                    <a href="{{ route('beranda') }}"><img src="{{ asset('user_assets/images/logo_tfs.png') }} " height="75"></a>
                                 </div>
                             </div>
 
