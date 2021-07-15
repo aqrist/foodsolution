@@ -1,13 +1,13 @@
 @extends('pengguna.master')
 
-@section('title', 'images/Katalog')
+@section('title', 'Katalog')
 
 @section('breadcrumb')
 <div class="bg-light py-3" data-aos="fade-up" data-aos-delay="100">
     <div class="container">
         <div class="row">
             <div class="col-md-12 mb-0">
-                <a href="#">images/Katalog</a>
+                <a href="#">Katalog</a>
             </div>
         </div>
     </div>
