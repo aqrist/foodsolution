@@ -81,24 +81,24 @@
         </div>
         <div class="row">
             <div class="col-sm-6 col-md-6 col-lg-6 mb-4 mb-lg-0" data-aos="fade" data-aos-delay="">
-                <a class="block-2-item item1" href="{{ route('produk') }}?kategori=latte">
+                <a class="block-2-item item1" href="{{ route('produk') }}?kategori=dairy">
                     <figure class="image">
                         <img src="{{ asset('user_assets/images/Taro.png') }}" alt="" class="img-fluid">
                     </figure>
                     <div class="text">
                         <span class="text-uppercase">Lihat Produk</span>
-                        <h3>Latte</h3>
+                        <h3>Dairy</h3>
                     </div>
                 </a>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
-                <a class="block-2-item item2" href="{{ route('produk') }}?kategori=non-latte">
+                <a class="block-2-item item2" href="{{ route('produk') }}?kategori=non-dairy">
                     <figure class="image">
                         <img src="{{ asset('user_assets/images/Lemontea.png') }}" alt="" class="img-fluid">
                     </figure>
                     <div class="text">
                         <span class="text-uppercase">Lihat Produk</span>
-                        <h3>Non Latte</h3>
+                        <h3>Non Dairy</h3>
                     </div>
                 </a>
             </div>
