@@ -70,11 +70,11 @@
                 <h2 class="text-black my-3"> {{ $detail->nama_barang }}</h2>
                 <!-- {!! $detail->deskripsi_barang !!} -->
                 <table class="table mb-5">
-                <tr>
+                <!-- <tr>
                     <td>Berat</td>
                     <td>:</td>
                     <td>{{ $detail->berat_barang }}gram</td>
-                </tr>
+                </tr> -->
                 <tr>
                     <td>Stok</td>
                     <td>:</td>
@@ -96,6 +96,22 @@
                     <td>:</td>
                     <td>
                         <strong class="text-primary"> {{ Rupiah::create($detail->harga_satuan) }} </strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kemasan</td>
+                    <td>:</td>
+                    <td>
+                    <div class="dropdown">
+                        <button class="btn-sm btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pilih Kemasan
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">250g</a>
+                            <a class="dropdown-item" href="#">500g</a>
+                            <a class="dropdown-item" href="#">1000g</a>
+                        </div>
+                    </div>
                     </td>
                 </tr>
             </table>
