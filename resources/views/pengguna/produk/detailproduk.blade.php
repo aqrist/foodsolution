@@ -141,7 +141,9 @@
             <br>
             {!! $detail->deskripsi_barang !!}
             <br>
-            {{ Html::image(asset('storage/produk/'.$detail->foto_saran), $detail->nama_barang, ['class' => 'img-fluid']) }}
+            <br>
+            <!-- {{ Html::image(asset('storage/produk/'.$detail->foto_saran), $detail->nama_barang, ['class' => 'img-fluid']) }} -->
+            <img src="{{ asset('user_assets/images/saran.png') }}" alt="" class="img-fluid">
             {{ Form::close() }}
       </div>
     </div>
