@@ -24,7 +24,8 @@
                 </a> --}}
                 <div class="sample-flipbook">
                     <div class="hard"> <img src="{{ asset('user_assets/images/katalog/Slide1.JPG') }}" alt="" /></div>
-                    <div class="hard"><img src="{{ asset('user_assets/images/katalog/Slide2.JPG') }}" alt="" /></div>
+                    <div class="hard"><img src="{{ asset('user_assets/images/katalog/Slide_blank.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide2.JPG') }}" alt="" /></div>
                     <div class=""><img src="{{ asset('user_assets/images/katalog/Slide3.JPG') }}" alt="" /></div>
                     <div class=""><img src="{{ asset('user_assets/images/katalog/Slide4.JPG') }}" alt="" /></div>
                     <div class=""><img src="{{ asset('user_assets/images/katalog/Slide5.JPG') }}" alt="" /></div>
