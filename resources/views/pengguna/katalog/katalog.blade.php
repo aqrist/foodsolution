@@ -38,6 +38,8 @@
                     <div class=""><img src="{{ asset('user_assets/images/katalog/Slide12.JPG') }}" alt="" /></div>
                     <div class=""><img src="{{ asset('user_assets/images/katalog/Slide13.JPG') }}" alt="" /></div>
                     <div class=""><img src="{{ asset('user_assets/images/katalog/Slide14.JPG') }}" alt="" /></div>
+                    {{-- create blank here --}}
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide_blank.JPG') }}" alt="" /></div>
                     <div class=""><img src="{{ asset('user_assets/images/katalog/Slide15.JPG') }}" alt="" /></div>
                     <div class=""><img src="{{ asset('user_assets/images/katalog/Slide16.JPG') }}" alt="" /></div>
                     <div class=""><img src="{{ asset('user_assets/images/katalog/Slide17.JPG') }}" alt="" /></div>
