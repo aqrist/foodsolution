@@ -23,27 +23,27 @@
                     <
                 </a> --}}
                 <div class="sample-flipbook">
-                    <div class="hard"> <img src="{{ asset('user_assets/images/katalog/slide1.JPG') }}" alt="" /></div>
-                    <div class="hard"><img src="{{ asset('user_assets/images/katalog/slide2.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide3.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide4.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide5.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide6.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide7.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide8.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide9.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide10.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide11.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide12.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide13.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide14.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide15.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide16.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide17.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide18.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide19.JPG') }}" alt="" /></div>
-                    <div class=""><img src="{{ asset('user_assets/images/katalog/slide20.JPG') }}" alt="" /></div>
-                    <div class="hard"><img src="{{ asset('user_assets/images/katalog/slide21.JPG') }}" alt="" /></div>
+                    <div class="hard"> <img src="{{ asset('user_assets/images/katalog/Slide1.JPG') }}" alt="" /></div>
+                    <div class="hard"><img src="{{ asset('user_assets/images/katalog/Slide2.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide3.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide4.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide5.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide6.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide7.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide8.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide9.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide10.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide11.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide12.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide13.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide14.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide15.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide16.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide17.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide18.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide19.JPG') }}" alt="" /></div>
+                    <div class=""><img src="{{ asset('user_assets/images/katalog/Slide20.JPG') }}" alt="" /></div>
+                    <div class="hard"><img src="{{ asset('user_assets/images/katalog/Slide21.JPG') }}" alt="" /></div>
         
                 </div>
                 {{-- <a href="" class="btn next">
