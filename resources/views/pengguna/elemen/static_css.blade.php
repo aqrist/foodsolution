@@ -11,6 +11,6 @@
 {{ Html::style('user_assets/css/owl.theme.default.min.css') }}
 
 {{ Html::style('user_assets/css/aos.css') }}
-{{ Html::style('user_assets/css/flip.css') }}
+{{ Html::style('user_assets/css/flipstyle.css') }}
 
 {{ Html::style('user_assets/css/style.css') }}
