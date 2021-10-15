@@ -104,7 +104,7 @@
                     <td>
                     <div class="dropdown">
                         <button class="btn-sm btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Pilih Kemasan
+                            Pilihan Kemasan
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="#">250g</a>
@@ -116,7 +116,8 @@
                 </tr>
             </table>
             {{ Form::open(['route' => ['tambah_keranjang', $detail->id_barang]]) }}
-            <div class="mb-5">
+            <!-- Start - Quantity -->
+            <!-- <div class="mb-5">
                 <div class="input-group mb-3" style="max-width: 120px;">
                     <div class="input-group-prepend">
                         <button class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
@@ -126,17 +127,24 @@
                         <button class="btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
                     </div>
                 </div>
-            </div>
+            </div> -->
+            <!-- End - Quantity -->
             <p>
-            @if($detail->stok_barang != 0)
-                <button type="submit" class="buy-now btn btn-sm btn-primary" name="simpan" value="true">
+            <!-- @if($detail->stok_barang != 0) -->
+                <!-- <button type="submit" class="buy-now btn btn-sm btn-primary" name="simpan" value="true">
                     Tambah Ke Keranjang
+                </button> -->
+                <button class="buy-now btn btn-sm btn-primary" type="button" data-toggle="modal" data-target="#shopeeModal">
+                    Beli di Shopee
                 </button>
-            @else
+                <button class="buy-now btn btn-sm btn-primary" type="button" data-toggle="modal" data-target="#tokpedModal">
+                    Beli di Tokopedia
+                </button>
+            <!-- @else
                 <button type="button" class="buy-now btn btn-sm btn-primary" disabled>
                     Stok Kosong
                 </button>
-            @endif
+            @endif -->
             </p>
             <br>
             {!! $detail->deskripsi_barang !!}
@@ -149,4 +157,143 @@
     </div>
   </div>
 </div>
+
+<!-- Start Shopee modal -->
+<div class="modal fade" id="tokpedModal" tabindex="-1" role="dialog" aria-labelledby="tokpedModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="tokpedModalLabel">Daftar Shopee Official Store</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="list-group">
+            <a href="https://shopee.co.id/tongtjiofficialstore" target="_blank" class="list-group-item">
+                Jakarta
+            </a>
+            <a href="https://shopee.co.id/tongtjibogor" target="_blank" class="list-group-item">
+                Bogor
+            </a>
+            <a href="https://shopee.co.id/tongtjibandung" target="_blank" class="list-group-item">
+                Bandung
+            </a>
+            <a href="https://shopee.co.id/cvcki" target="_blank" class="list-group-item">
+                Cirebon
+            </a>
+            <a href="https://shopee.co.id/tongtjitegal" target="_blank" class="list-group-item">
+                Tegal
+            </a>
+            <a href="https://shopee.co.id/tongtjipurwokerto" target="_blank" class="list-group-item">
+                Purwokerto
+            </a>
+            <a href="https://shopee.co.id/tongtjisemarang" target="_blank" class="list-group-item">
+                Semarang
+            </a>
+            <a href="https://shopee.co.id/tongtjikudus" target="_blank" class="list-group-item">
+                Kudus
+            </a>
+            <a href="https://shopee.co.id/tongtjisolo" target="_blank" class="list-group-item">
+                Solo
+            </a>
+            <a href="https://shopee.co.id/tongtjijogja" target="_blank" class="list-group-item">
+                Yogyakarta
+            </a>
+            <a href="https://shopee.co.id/tongtjisurabaya" target="_blank" class="list-group-item">
+                Surabaya
+            </a>
+        </div>
+
+        <!-- <div class="panel panel-primary">
+            <a href="#">Jakarta</a>
+        </div>
+        <div class="panel panel-primary">
+            <a href="https://shopee.co.id/tongtjibogor">Bogor</a>
+        </div>
+        <div class="panel panel-primary">
+            <a href="https://shopee.co.id/tongtjibandung">Bandung</a>
+        </div>
+        <div class="panel panel-primary">
+            <a href="https://shopee.co.id/cvcki">Cirebon</a>
+        </div> -->
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end Shopee modal -->
+
+<!-- Start Tokopedia modal -->
+<div class="modal fade" id="shopeeModal" tabindex="-1" role="dialog" aria-labelledby="shopeeModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="shopeeModalLabel">Daftar Shopee Official Store</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="list-group">
+            <a href="https://www.tokopedia.com/tongtjiofficial" target="_blank" class="list-group-item">
+                Jakarta
+            </a>
+            <a href="https://www.tokopedia.com/tongtji-bogor" target="_blank" class="list-group-item">
+                Bogor
+            </a>
+            <a href="https://www.tokopedia.com/tongtji-bandung" target="_blank" class="list-group-item">
+                Bandung
+            </a>
+            <a href="https://www.tokopedia.com/tongtji-cirebon" target="_blank" class="list-group-item">
+                Cirebon
+            </a>
+            <a href="https://www.tokopedia.com/tongtji-tegal" target="_blank" class="list-group-item">
+                Tegal
+            </a>
+            <a href="https://www.tokopedia.com/tongtji-purwokerto" target="_blank" class="list-group-item">
+                Purwokerto
+            </a>
+            <a href="https://www.tokopedia.com/tongtji-semarang" target="_blank" class="list-group-item">
+                Semarang
+            </a>
+            <a href="https://www.tokopedia.com/tongtji-kudus" target="_blank" class="list-group-item">
+                Kudus
+            </a>
+            <a href="https://www.tokopedia.com/tongtji-solo" target="_blank" class="list-group-item">
+                Solo
+            </a>
+            <a href="https://www.tokopedia.com/tongtji-yogyakarta" target="_blank" class="list-group-item">
+                Yogyakarta
+            </a>
+            <a href="https://www.tokopedia.com/tongtji-surabaya" target="_blank" class="list-group-item">
+                Surabaya
+            </a>
+        </div>
+
+        <!-- <div class="panel panel-primary">
+            <a href="#">Jakarta</a>
+        </div>
+        <div class="panel panel-primary">
+            <a href="https://shopee.co.id/tongtjibogor">Bogor</a>
+        </div>
+        <div class="panel panel-primary">
+            <a href="https://shopee.co.id/tongtjibandung">Bandung</a>
+        </div>
+        <div class="panel panel-primary">
+            <a href="https://shopee.co.id/cvcki">Cirebon</a>
+        </div> -->
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end Tokopedia modal -->
+
 @endsection
