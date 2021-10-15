@@ -24,11 +24,11 @@
             <li><a href="{{ route('katalog') }}">Lihat Katalog</a></li>
             <li><a href="{{ route('inquiries') }}">Kontak Kami</a></li>
             <!-- <li><a href="#kontak">Kontak Kami</a></li> -->
-            @if(session()->has('email_pengguna'))
+            {{-- @if(session()->has('email_pengguna'))
                 <li><a href="{{ route('logout') }}">Keluar</a></li>
             @else
                 <li><a href="{{ route('register') }}">Daftar</a> / <a href="{{ route('login') }}" class="btn btn-xs btn-outline-primary ml-2 py-1">Masuk</a></li>
-            @endif
+            @endif --}}
         </ul>
     </div>
 </nav>
