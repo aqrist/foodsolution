@@ -75,11 +75,11 @@
                     <td>:</td>
                     <td>{{ $detail->berat_barang }}gram</td>
                 </tr> -->
-                <tr>
+                {{-- <tr>
                     <td>Stok</td>
                     <td>:</td>
                     <td><b>{{ $detail->stok_barang }}pcs</b></td>
-                </tr>
+                </tr> --}}
                 <tr>
                     <td>Status</td>
                     <td>:</td>
@@ -137,7 +137,7 @@
                 <button class="buy-now btn btn-sm btn-primary" type="button" data-toggle="modal" data-target="#shopeeModal">
                     Beli di Shopee
                 </button>
-                <button class="buy-now btn btn-sm btn-primary" type="button" data-toggle="modal" data-target="#tokpedModal">
+                <button class="buy-now btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#tokpedModal">
                     Beli di Tokopedia
                 </button>
             <!-- @else
@@ -159,11 +159,11 @@
 </div>
 
 <!-- Start Shopee modal -->
-<div class="modal fade" id="tokpedModal" tabindex="-1" role="dialog" aria-labelledby="tokpedModalLabel" aria-hidden="true">
+<div class="modal fade" id="shopeeModal" tabindex="-1" role="dialog" aria-labelledby="shopeeModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="tokpedModalLabel">Daftar Shopee Official Store</h5>
+        <h5 class="modal-title" id="shopeeModalLabel">Daftar Shopee Official Store</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -228,11 +228,11 @@
 <!-- end Shopee modal -->
 
 <!-- Start Tokopedia modal -->
-<div class="modal fade" id="shopeeModal" tabindex="-1" role="dialog" aria-labelledby="shopeeModalLabel" aria-hidden="true">
+<div class="modal fade" id="tokpedModal" tabindex="-1" role="dialog" aria-labelledby="tokpedModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="shopeeModalLabel">Daftar Shopee Official Store</h5>
+        <h5 class="modal-title" id="tokpedModalLabel">Daftar Shopee Official Store</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>

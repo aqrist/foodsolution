@@ -4,7 +4,7 @@
             <li><a href="{{ route('beranda') }}">Beranda</a></li>
             <li><a href="#">Tentang Kami</a></li>
             {{-- <li><a href="#">Koleksi</a></li> --}}
-            <li class="has-children">
+            <!-- <li class="has-children">
                 <a href="#">Layanan</a>
                 <ul class="dropdown">
                     <li><a href="#">Konsultasi Bisnis</a></li>
@@ -13,7 +13,7 @@
                     <li><a href="#">R&D</a></li>
                     <li><a href="#">Design Graphic</a></li>
                 </ul>
-            </li>
+            </li> -->
             {{-- <li><a href="#">Edukasi</a></li> --}}
             <li><a href="#">Resep</a></li>
             <li class="has-children">
@@ -23,6 +23,7 @@
             </li>
             <li><a href="{{ route('katalog') }}">Lihat Katalog</a></li>
             <li><a href="{{ route('inquiries') }}">Kontak Kami</a></li>
+            <li><a href="#">Konsultasi Bisnis</a></li>
             <!-- <li><a href="#kontak">Kontak Kami</a></li> -->
             {{-- @if(session()->has('email_pengguna'))
                 <li><a href="{{ route('logout') }}">Keluar</a></li>

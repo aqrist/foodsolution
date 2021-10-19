@@ -12,10 +12,10 @@
     <li><a href="{{ route('superadmin_pengguna') }}"><i class="fa fa-users"></i> <span>Pengguna <span class="label bg-purple pull-right" id="jml_pengguna"></span></span></a></li>
     <li><a href="{{ route('superadmin_admin') }}"><i class="fa fa-users"></i> <span>Admin <span class="label bg-purple pull-right" id="jml_admin"></span></span></a></li>
     @endif
-    <li class="header">TRANSAKSI</li>
+    {{-- <li class="header">TRANSAKSI</li>
     <li><a href="{{ route('pembayaran_admin') }}"><i class="fa fa-money"></i> <span>Pembayaran <span class="label bg-red pull-right" id="jml_pembayaran"></span></span></a></li>
     <li><a href="{{ route('pesanan_admin') }}"><i class="fa fa-shopping-cart"></i> <span>Pesanan <span class="label bg-red pull-right" id="jml_pesanan"></span></span></a></li>
-    <li><a href="{{ route('pengiriman_admin') }}"><i class="fa fa-truck"></i> <span>Pengiriman <span class="label bg-red pull-right" id="jml_pengiriman"></span></span></a></li>
+    <li><a href="{{ route('pengiriman_admin') }}"><i class="fa fa-truck"></i> <span>Pengiriman <span class="label bg-red pull-right" id="jml_pengiriman"></span></span></a></li> --}}
     <li class="header">LAPORAN</li>
     <li><a href="{{ route('laporan_transaksi') }}"><i class="fa fa-file-text-o"></i> <span>Transaksi</span></a></li>
 </ul>
