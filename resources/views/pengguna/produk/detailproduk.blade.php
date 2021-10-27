@@ -239,37 +239,37 @@
       </div>
       <div class="modal-body">
         <div class="list-group">
-            <a href="https://www.tokopedia.com/tongtjiofficial" target="_blank" class="list-group-item">
+            <a href="https://www.tokopedia.com/tongtjiofficial" target="_blank" class="list-group-item text-success">
                 Jakarta
             </a>
-            <a href="https://www.tokopedia.com/tongtji-bogor" target="_blank" class="list-group-item">
+            <a href="https://www.tokopedia.com/tongtji-bogor" target="_blank" class="list-group-item text-success">
                 Bogor
             </a>
-            <a href="https://www.tokopedia.com/tongtji-bandung" target="_blank" class="list-group-item">
+            <a href="https://www.tokopedia.com/tongtji-bandung" target="_blank" class="list-group-item text-success">
                 Bandung
             </a>
-            <a href="https://www.tokopedia.com/tongtji-cirebon" target="_blank" class="list-group-item">
+            <a href="https://www.tokopedia.com/tongtji-cirebon" target="_blank" class="list-group-item text-success">
                 Cirebon
             </a>
-            <a href="https://www.tokopedia.com/tongtji-tegal" target="_blank" class="list-group-item">
+            <a href="https://www.tokopedia.com/tongtji-tegal" target="_blank" class="list-group-item text-success">
                 Tegal
             </a>
-            <a href="https://www.tokopedia.com/tongtji-purwokerto" target="_blank" class="list-group-item">
+            <a href="https://www.tokopedia.com/tongtji-purwokerto" target="_blank" class="list-group-item text-success">
                 Purwokerto
             </a>
-            <a href="https://www.tokopedia.com/tongtji-semarang" target="_blank" class="list-group-item">
+            <a href="https://www.tokopedia.com/tongtji-semarang" target="_blank" class="list-group-item text-success">
                 Semarang
             </a>
-            <a href="https://www.tokopedia.com/tongtji-kudus" target="_blank" class="list-group-item">
+            <a href="https://www.tokopedia.com/tongtji-kudus" target="_blank" class="list-group-item text-success">
                 Kudus
             </a>
-            <a href="https://www.tokopedia.com/tongtji-solo" target="_blank" class="list-group-item">
+            <a href="https://www.tokopedia.com/tongtji-solo" target="_blank" class="list-group-item text-success">
                 Solo
             </a>
-            <a href="https://www.tokopedia.com/tongtji-yogyakarta" target="_blank" class="list-group-item">
+            <a href="https://www.tokopedia.com/tongtji-yogyakarta" target="_blank" class="list-group-item text-success">
                 Yogyakarta
             </a>
-            <a href="https://www.tokopedia.com/tongtji-surabaya" target="_blank" class="list-group-item">
+            <a href="https://www.tokopedia.com/tongtji-surabaya" target="_blank" class="list-group-item text-success">
                 Surabaya
             </a>
         </div>
